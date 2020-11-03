@@ -28,6 +28,9 @@ public class MpApplicationTests {
         List<User> userList = this.userMapper.selectList(null);
         for (User user : userList) {
             System.out.println(user);
+
+
+
         }
     }
 
